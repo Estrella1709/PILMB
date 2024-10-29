@@ -1,0 +1,75 @@
+
+body {
+    background: rgb(112, 156, 153);
+    background-size: cover; /* Asegura que el fondo cubra toda la ventana */
+    background-repeat: no-repeat; /* Evita que el fondo se repita */
+    background-attachment: fixed; /* Fija el fondo para que no se desplace al hacer scroll */
+    background-position: center center; /* Centra el fondo en la ventana */
+    height: 100vh; /* Ocupa toda la altura de la vista */
+    margin: 0; /* Elimina el margen por defecto del body */
+}
+    .navbar {
+      background: #b9e4e4;
+      padding: 15px;
+      display: flex;
+      justify-content: space-around;
+      
+  }
+  .navbar a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 10px 20px;
+  }
+  .navbar a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 5px;
+  }
+
+  body {
+    background-color: #f7f7f7;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2c387e;
+}
+
+.form-control {
+    border: 2px solid #2c387e;
+}
+
+.btn {
+    background-color: #2c387e;
+}
+
+.btn:hover {
+    background-color: #1e2856;
+}
+
+.error-message {
+    display: none;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.invalid {
+    border-color: #ff0000;
+}
+
+.valid {
+    border-color: #00ff00;
+}
+
+.character-count {
+    font-size: 0.9rem;
+    color: #666666;
+    margin-top: 0.5rem;
+}

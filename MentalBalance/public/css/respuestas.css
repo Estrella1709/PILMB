@@ -1,0 +1,32 @@
+body {
+    background: rgb(166,216,222);
+    background: linear-gradient(45deg, rgba(166,216,222,1) 0%, rgba(111,168,173,1) 18%, rgba(166,216,222,1) 38%, rgba(111,168,173,1) 58%, rgba(166,216,222,1) 78%);
+  }
+  
+  
+    .navbar {
+      background:none;
+      padding: 15px;
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  .navbar a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 10px 20px;
+  }
+  
+  .navbar a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 5px;
+  }
+.results-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #b2ebf2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
